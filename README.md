@@ -7,7 +7,14 @@ TBD
 
 ## References
 
-TBD
+### Stemming
+
+- [The Porter Stemming Algorithm](https://tartarus.org/martin/PorterStemmer/)
+- [Porter Stemming Vocabulary](https://tartarus.org/martin/PorterStemmer/voc.txt)
+- [Porter Stemming Output](https://tartarus.org/martin/PorterStemmer/output.txt)
+- [Spanish stemming algorithm](http://snowball.tartarus.org/algorithms/spanish/stemmer.html)
+- [Spanish stemming vocabulary](http://snowball.tartarus.org/algorithms/spanish/voc.txt)
+- [Spanish stemming output](http://snowball.tartarus.org/algorithms/spanish/output.txt)
 
 ## Samples
 
