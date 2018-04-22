@@ -1,0 +1,20 @@
+{ "name": "nlplib"
+, "description": "Ethereum smart contract programming language, inspired by Smalltalk"
+, "keywords": [ "nlp", "natural language processing", "linguistic" ]
+, "version": "0.0.1alpha"
+, "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
+, "repository": { "type": "git", "url": "git://github.com/ajlopez/nlplib.git" }
+, "main": "./lib/nlplib.js"
+, "engines": { "node": ">= 0.12.0" }
+,  "bin": {
+    "nlplib": "./bin/nlplib.js"
+  }
+, "scripts": {
+    "test": "simpleunit -r ./test"
+  }
+, "dependencies": {
+  }
+, "devDependencies": {
+    "simpleunit": "0.0.7"
+  }
+}
