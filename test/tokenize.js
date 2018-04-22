@@ -30,3 +30,14 @@ exports['tokenize two words with spaces'] = function (test) {
 	test.equal(tokens[1], 'bar');
 }
 
+exports['tokenize two words separated by comma'] = function (test) {
+	var tokens = words.tokenize('foo, bar');
+	
+	test.ok(tokens);
+	test.ok(Array.isArray(tokens));
+	test.equal(tokens.length, 3);
+	test.equal(tokens[0], 'foo');
+	test.equal(tokens[1], ',');
+	test.equal(tokens[2], 'bar');
+}
+
