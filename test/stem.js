@@ -13,5 +13,11 @@ exports['stem gerund'] = function (test) {
 	test.equal(result, 'eat');
 }
 
+exports['stem gerund with double consonant'] = function (test) {
+	var result = stem.stem('shopping');	
+	test.equal(result, 'shop');
+	var result = stem.stem('stemming');	
+	test.equal(result, 'stem');
+}
 
 
