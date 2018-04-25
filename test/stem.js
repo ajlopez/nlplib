@@ -7,6 +7,12 @@ exports['stem short word'] = function (test) {
 	test.equal(result, 'eat');
 }
 
+exports['remove s'] = function (test) {
+	var result = stem.stem('cats');
+	
+	test.equal(result, 'cat');
+}
+
 exports['stem gerund'] = function (test) {
 	var result = stem.stem('eating');
 	
