@@ -13,6 +13,12 @@ exports['remove s'] = function (test) {
 	test.equal(result, 'cat');
 }
 
+exports['remove sses to ss'] = function (test) {
+	var result = stem.stem('caresses');
+	
+	test.equal(result, 'caress');
+}
+
 exports['stem gerund'] = function (test) {
 	var result = stem.stem('eating');
 	
