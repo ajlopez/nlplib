@@ -19,6 +19,12 @@ exports['remove sses to ss'] = function (test) {
 	test.equal(result, 'caress');
 }
 
+exports['ss to ss'] = function (test) {
+	var result = stem.stem('caress');
+	
+	test.equal(result, 'caress');
+}
+
 exports['stem gerund'] = function (test) {
 	var result = stem.stem('eating');
 	
