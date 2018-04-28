@@ -25,6 +25,12 @@ exports['ss to ss'] = function (test) {
 	test.equal(result, 'caress');
 }
 
+exports['ies to i'] = function (test) {
+	var result = stem.stem('ponies');
+	
+	test.equal(result, 'poni');
+}
+
 exports['stem gerund'] = function (test) {
 	var result = stem.stem('eating');
 	
