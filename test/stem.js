@@ -44,4 +44,9 @@ exports['stem gerund with double consonant'] = function (test) {
 	test.equal(result, 'stem');
 }
 
+exports['eed to ee'] = function (test) {
+	var result = stem.stem('agreed');	
+	
+	test.equal(result, 'agree');
+}
 
