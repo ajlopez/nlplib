@@ -16,6 +16,13 @@ TBD
 - [Spanish stemming vocabulary](http://snowball.tartarus.org/algorithms/spanish/voc.txt)
 - [Spanish stemming output](http://snowball.tartarus.org/algorithms/spanish/output.txt)
 
+### APIs
+
+- [Oxford Dictionaries API](https://developer.oxforddictionaries.com/)
+- [Dictionary APIs](https://www.programmableweb.com/category/dictionary/api)
+- [Collins Complete and Unabridged Spanish Dictionary](https://www.collinsdictionary.com/api/collins-complete-and-unabridged-spanish-dictionary,62,HCA.html)
+- [Merriam-Webster's Spanish-English Dictionary with Audio](https://www.dictionaryapi.com/products/api-spanish-dictionary.htm)
+
 ## Samples
 
 TBD
