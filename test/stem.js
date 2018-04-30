@@ -31,13 +31,19 @@ exports['ies to i'] = function (test) {
 	test.equal(result, 'poni');
 }
 
-exports['stem gerund'] = function (test) {
+exports['remove ing'] = function (test) {
 	var result = stem.stem('eating');
 	
 	test.equal(result, 'eat');
 }
 
-exports['stem gerund with double consonant'] = function (test) {
+exports['not remove ing if stem has no vowel'] = function (test) {
+	var result = stem.stem('sing');
+	
+	test.equal(result, 'sing');
+}
+
+exports['remove ing with double consonant'] = function (test) {
 	var result = stem.stem('shopping');	
 	test.equal(result, 'shop');
 	var result = stem.stem('stemming');	
@@ -61,4 +67,5 @@ exports['no ed removal if no vowel in stem'] = function (test) {
 	
 	test.equal(result, 'bled');
 }
+
 
