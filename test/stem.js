@@ -56,3 +56,9 @@ exports['remove ed'] = function (test) {
 	test.equal(result, 'plaster');
 }
 
+exports['no ed removal if no vowel in stem'] = function (test) {
+	var result = stem.stem('bled');	
+	
+	test.equal(result, 'bled');
+}
+
