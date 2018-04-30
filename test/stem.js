@@ -50,3 +50,9 @@ exports['eed to ee'] = function (test) {
 	test.equal(result, 'agree');
 }
 
+exports['remove ed'] = function (test) {
+	var result = stem.stem('plastered');	
+	
+	test.equal(result, 'plaster');
+}
+
