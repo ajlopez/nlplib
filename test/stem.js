@@ -68,4 +68,21 @@ exports['no ed removal if no vowel in stem'] = function (test) {
 	test.equal(result, 'bled');
 }
 
+exports['ated to ate'] = function (test) {
+	var result = stem.stem('conflated');	
+	
+	test.equal(result, 'conflate');
+}
+
+exports['bled to ble'] = function (test) {
+	var result = stem.stem('troubled');	
+	
+	test.equal(result, 'trouble');
+}
+
+exports['ized to ize'] = function (test) {
+	var result = stem.stem('sized');	
+	
+	test.equal(result, 'size');
+}
 
