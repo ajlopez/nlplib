@@ -50,6 +50,15 @@ exports['remove ing with double consonant'] = function (test) {
 	test.equal(result, 'stem');
 }
 
+exports['remove ing with double l, s, z'] = function (test) {
+	var result = stem.stem('falling');	
+	test.equal(result, 'fall');
+	var result = stem.stem('kissing');	
+	test.equal(result, 'kiss');
+	var result = stem.stem('fizzed');	
+	test.equal(result, 'fizz');
+}
+
 exports['eed to ee'] = function (test) {
 	var result = stem.stem('agreed');	
 	
