@@ -101,3 +101,9 @@ exports['ational to e'] = function (test) {
 	test.equal(result, 'relate');
 }
 
+exports['ational to ational if stem has no vowel'] = function (test) {
+	var result = stem.stem('rational');	
+	
+	test.equal(result, 'rational');
+}
+
