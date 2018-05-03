@@ -95,3 +95,9 @@ exports['ized to ize'] = function (test) {
 	test.equal(result, 'size');
 }
 
+exports['ational to e'] = function (test) {
+	var result = stem.stem('relational');	
+	
+	test.equal(result, 'relate');
+}
+
