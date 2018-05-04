@@ -107,3 +107,9 @@ exports['ational to ational if stem has no vowel'] = function (test) {
 	test.equal(result, 'rational');
 }
 
+exports['fulness to ful'] = function (test) {
+	var result = stem.stem('hopefulness');	
+	
+	test.equal(result, 'hopeful');
+}
+
