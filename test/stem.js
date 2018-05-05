@@ -110,7 +110,7 @@ exports['ational to ational if stem has no vowel'] = function (test) {
 exports['fulness to ful'] = function (test) {
 	var result = stem.stem('hopefulness');	
 	
-	test.equal(result, 'hopeful');
+	test.equal(result, 'hope');
 }
 
 exports['ousness to ous'] = function (test) {
@@ -119,3 +119,8 @@ exports['ousness to ous'] = function (test) {
 	test.equal(result, 'callous');
 }
 
+exports['remove ful suffix'] = function (test) {
+	var result = stem.stem('hopeful');	
+	
+	test.equal(result, 'hope');
+}
