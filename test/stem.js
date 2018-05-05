@@ -113,3 +113,9 @@ exports['fulness to ful'] = function (test) {
 	test.equal(result, 'hopeful');
 }
 
+exports['ousness to ous'] = function (test) {
+	var result = stem.stem('callousness');	
+	
+	test.equal(result, 'callous');
+}
+
