@@ -131,3 +131,9 @@ exports['remove ful suffix'] = function (test) {
 	test.equal(result, 'hope');
 }
 
+exports['remove ness suffix'] = function (test) {
+	var result = stem.stem('goodness');	
+	
+	test.equal(result, 'good');
+}
+
