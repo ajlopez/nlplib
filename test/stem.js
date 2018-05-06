@@ -65,6 +65,12 @@ exports['eed to ee'] = function (test) {
 	test.equal(result, 'agree');
 }
 
+exports['eed to eed if stem has measure 0'] = function (test) {
+	var result = stem.stem('feed');	
+	
+	test.equal(result, 'feed');
+}
+
 exports['remove ed'] = function (test) {
 	var result = stem.stem('plastered');	
 	
@@ -124,3 +130,4 @@ exports['remove ful suffix'] = function (test) {
 	
 	test.equal(result, 'hope');
 }
+
