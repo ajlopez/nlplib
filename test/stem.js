@@ -137,3 +137,9 @@ exports['remove ness suffix'] = function (test) {
 	test.equal(result, 'good');
 }
 
+exports['remove ance suffix'] = function (test) {
+	var result = stem.stem('allowance');	
+	
+	test.equal(result, 'allow');
+}
+
