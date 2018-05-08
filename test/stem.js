@@ -143,3 +143,8 @@ exports['remove ance suffix'] = function (test) {
 	test.equal(result, 'allow');
 }
 
+exports['remove ence suffix'] = function (test) {
+	var result = stem.stem('inference');	
+	
+	test.equal(result, 'infer');
+}
