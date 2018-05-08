@@ -7,6 +7,10 @@ TBD
 
 ## References
 
+### Books
+
+- NLTK Essentials, Nitin Hardeniya, Packt
+
 ### Stemming
 
 - [The Porter Stemming Algorithm](https://tartarus.org/martin/PorterStemmer/)
