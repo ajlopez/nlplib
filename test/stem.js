@@ -148,3 +148,9 @@ exports['remove ence suffix'] = function (test) {
 	
 	test.equal(result, 'infer');
 }
+
+exports['remove able suffix'] = function (test) {
+	var result = stem.stem('adjustable');	
+	
+	test.equal(result, 'adjust');
+}
