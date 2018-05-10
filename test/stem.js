@@ -154,3 +154,9 @@ exports['remove able suffix'] = function (test) {
 	
 	test.equal(result, 'adjust');
 }
+
+exports['remove ible suffix'] = function (test) {
+	var result = stem.stem('defensible');	
+	
+	test.equal(result, 'defens');
+}
