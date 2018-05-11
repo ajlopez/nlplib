@@ -160,3 +160,9 @@ exports['remove ible suffix'] = function (test) {
 	
 	test.equal(result, 'defens');
 }
+
+exports['remove ant suffix'] = function (test) {
+	var result = stem.stem('irritant');	
+	
+	test.equal(result, 'irrit');
+}
