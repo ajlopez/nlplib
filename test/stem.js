@@ -166,3 +166,15 @@ exports['remove ant suffix'] = function (test) {
 	
 	test.equal(result, 'irrit');
 }
+
+exports['remove ement suffix'] = function (test) {
+	var result = stem.stem('replacement');	
+	
+	test.equal(result, 'replac');
+}
+
+exports['remove ment suffix'] = function (test) {
+	var result = stem.stem('adjustment');	
+	
+	test.equal(result, 'adjust');
+}
