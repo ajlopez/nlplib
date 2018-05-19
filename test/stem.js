@@ -178,3 +178,10 @@ exports['remove ment suffix'] = function (test) {
 	
 	test.equal(result, 'adjust');
 }
+
+exports['remove ent suffix'] = function (test) {
+	var result = stem.stem('dependent');	
+	
+	test.equal(result, 'depend');
+}
+
