@@ -185,3 +185,8 @@ exports['remove ent suffix'] = function (test) {
 	test.equal(result, 'depend');
 }
 
+exports['remove ou suffix'] = function (test) {
+	var result = stem.stem('homologou');	
+	
+	test.equal(result, 'homolog');
+}
