@@ -190,3 +190,9 @@ exports['remove ou suffix'] = function (test) {
 	
 	test.equal(result, 'homolog');
 }
+
+exports['remove ous suffix'] = function (test) {
+	var result = stem.stem('homologous');	
+	
+	test.equal(result, 'homolog');
+}
