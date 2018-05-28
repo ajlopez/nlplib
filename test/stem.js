@@ -196,3 +196,9 @@ exports['remove ous suffix'] = function (test) {
 	
 	test.equal(result, 'homolog');
 }
+
+exports['remove ive suffix'] = function (test) {
+	var result = stem.stem('effective');	
+	
+	test.equal(result, 'effect');
+}
