@@ -202,3 +202,9 @@ exports['remove ive suffix'] = function (test) {
 	
 	test.equal(result, 'effect');
 }
+
+exports['replace aliti suffix by al'] = function (test) {
+	var result = stem.stem('formaliti');	
+	
+	test.equal(result, 'formal');
+}
