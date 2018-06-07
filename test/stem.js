@@ -203,8 +203,20 @@ exports['remove ive suffix'] = function (test) {
 	test.equal(result, 'effect');
 }
 
+exports['remove ive suffix from sensitive'] = function (test) {
+	var result = stem.stem('sensitive');	
+	
+	test.equal(result, 'sensit');
+}
+
 exports['replace aliti suffix by al'] = function (test) {
 	var result = stem.stem('formaliti');	
 	
 	test.equal(result, 'formal');
+}
+
+exports['replace iviti suffix by ive and then remove ive'] = function (test) {
+	var result = stem.stem('sensitiviti');	
+	
+	test.equal(result, 'sensit');
 }
