@@ -83,10 +83,10 @@ exports['no ed removal if no vowel in stem'] = function (test) {
 	test.equal(result, 'bled');
 }
 
-exports['ated to ate'] = function (test) {
+exports['ated to ate then remove ate'] = function (test) {
 	var result = stem.stem('conflated');	
 	
-	test.equal(result, 'conflate');
+	test.equal(result, 'confl');
 }
 
 exports['bled to ble'] = function (test) {
@@ -101,10 +101,10 @@ exports['ized to ize'] = function (test) {
 	test.equal(result, 'size');
 }
 
-exports['ational to e'] = function (test) {
+exports['ational to e then remove ate'] = function (test) {
 	var result = stem.stem('relational');	
 	
-	test.equal(result, 'relate');
+	test.equal(result, 'rel');
 }
 
 exports['ational to ational if stem has no vowel'] = function (test) {
@@ -219,4 +219,10 @@ exports['replace iviti suffix by ive and then remove ive'] = function (test) {
 	var result = stem.stem('sensitiviti');	
 	
 	test.equal(result, 'sensit');
+}
+
+exports['remove ate suffix'] = function (test) {
+	var result = stem.stem('activate');	
+	
+	test.equal(result, 'activ');
 }
