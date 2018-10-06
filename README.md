@@ -14,6 +14,7 @@ TBD
 ### Books
 
 - NLTK Essentials, Nitin Hardeniya, Packt
+- Natural Language Understanding, Allen J, Cummings
 
 ### Stemming
 
