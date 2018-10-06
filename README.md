@@ -24,6 +24,11 @@ TBD
 - [Spanish stemming algorithm](http://snowball.tartarus.org/algorithms/spanish/stemmer.html)
 - [Spanish stemming vocabulary](http://snowball.tartarus.org/algorithms/spanish/voc.txt)
 - [Spanish stemming output](http://snowball.tartarus.org/algorithms/spanish/output.txt)
+- [nltk.stem package](https://www.nltk.org/api/nltk.stem.html)
+
+### Lemmatization
+
+- [Machine-readable lists of lemma-token pairs in 23 languages](https://github.com/michmech/lemmatization-lists)
 
 ### APIs
 
