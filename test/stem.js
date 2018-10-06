@@ -226,3 +226,9 @@ exports['remove ate suffix'] = function (test) {
 	
 	test.equal(result, 'activ');
 }
+
+exports['remove iti suffix'] = function (test) {
+	var result = stem.stem('angulariti');	
+	
+	test.equal(result, 'angular');
+}
