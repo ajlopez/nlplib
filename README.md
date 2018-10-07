@@ -30,6 +30,10 @@ TBD
 
 - [Machine-readable lists of lemma-token pairs in 23 languages](https://github.com/michmech/lemmatization-lists)
 
+### Datasets
+
+- [120 Million Word Spanish Corpus](https://www.kaggle.com/rtatman/120-million-word-spanish-corpus)
+
 ### APIs
 
 - [Oxford Dictionaries API](https://developer.oxforddictionaries.com/)
