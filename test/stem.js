@@ -232,3 +232,9 @@ exports['remove iti suffix'] = function (test) {
 	
 	test.equal(result, 'angular');
 }
+
+exports['remove ize suffix'] = function (test) {
+	var result = stem.stem('bowdlerize');	
+	
+	test.equal(result, 'bowdler');
+}
