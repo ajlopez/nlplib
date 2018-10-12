@@ -238,3 +238,10 @@ exports['remove ize suffix'] = function (test) {
 	
 	test.equal(result, 'bowdler');
 }
+
+exports['note remove e suffix when only one vowel'] = function (test) {
+	var result = stem.stem('rate');	
+	
+	test.equal(result, 'rate');
+}
+
