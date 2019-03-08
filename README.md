@@ -11,6 +11,7 @@ TBD
 
 - [An easy introduction to Natural Language Processing](https://towardsdatascience.com/an-easy-introduction-to-natural-language-processing-b1e2801291c1)
 - [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
+- [An NLP library for building bots, with entity extraction, sentiment analysis, automatic language identify, and so more](https://github.com/axa-group/nlp.js)
 
 ### Books
 
